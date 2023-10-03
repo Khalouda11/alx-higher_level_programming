@@ -1,5 +1,12 @@
-#!/usr/bin/env python3
-uppercase = __import__('8-uppercase').uppercase
-
-uppercase("best")
-uppercase("Best School 98 Battery street")
+#!/usr/bin/python3
+def islower(c):
+	if ord >= ord('a') and ord(c) <= ord('z'):
+		return True
+	else:
+		return False
+def uppercase(str):
+	for c in str:
+		print("{:c}"
+			.format(ord(c) if not islower(c) else ord(c) -32,
+			end="")
+	print("")
